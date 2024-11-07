@@ -15,6 +15,7 @@ RUN mkdir -p /app/data
 
 # Set environment variable for Python to write output unbuffered
 ENV PYTHONUNBUFFERED=1
+ENV HYDRO_DATA_DIR=/app/data
 
 # Run the application
 CMD ["python", "main.py"]
