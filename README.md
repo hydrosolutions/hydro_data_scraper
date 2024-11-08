@@ -1,5 +1,20 @@
 # The hydro data scraper
+<!-- GitHub Actions Status -->
 ![Build and Deploy](https://github.com/hydrosolutions/hydro_data_scraper/actions/workflows/docker-build-push.yml/badge.svg)
+
+<!-- DockerHub Status -->
+[![Docker Pulls](https://img.shields.io/docker/pulls/mabesa/hydro-scraper)](https://hub.docker.com/r/mabesa/hydro-scraper)
+[![Docker Image Size](https://img.shields.io/docker/image-size/mabesa/hydro-scraper/latest)](https://hub.docker.com/r/mabesa/hydro-scraper)
+
+<!-- Python Version -->
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-312/)
+
+<!-- License -->
+[![License](https://img.shields.io/github/license/mabesa/hydro-scraper)](https://github.com/mabesa/hydro-scraper/blob/main/LICENSE)
+
+<!-- Code Quality & Maintenance -->
+[![Last Commit](https://img.shields.io/github/last-commit/mabesa/hydro-scraper)](https://github.com/mabesa/hydro-scraper/commits/main)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 The hydro data scraper is a tool to collect operational hydrological data from the [Linked Data Services platform (LINDAS)](https://lindas.admin.ch/?lang=de). This repository contains the code that can be deployed on a server to periodically read the latest observations from LINDAS. 
 
