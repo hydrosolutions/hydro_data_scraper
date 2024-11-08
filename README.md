@@ -14,7 +14,6 @@
 
 <!-- Code Quality & Maintenance -->
 [![Last Commit](https://img.shields.io/github/last-commit/hydrosolutions/hydro_data_scraper)](https://github.com/hydrosolutions/hydro_data_scraper/commits/main)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 The hydro data scraper is a tool to collect operational hydrological data from the [Linked Data Services platform (LINDAS)](https://lindas.admin.ch/?lang=de). This repository contains the code that can be deployed on a server to periodically read the latest observations from LINDAS. 
 
